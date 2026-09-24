@@ -1,0 +1,33 @@
+name: Rebuild monthly data index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "months/*.json"
+      - "scripts/build-month-index.mjs"
+      - ".github/workflows/rebuild-month-index.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0
+      - name: Validate month files and rebuild index
+        run: node scripts/build-month-index.mjs
+      - name: Commit generated index
+        run: |
+          if git diff --quiet -- months.json && git ls-files --error-unmatch months.json >/dev/null 2>&1; then
+            echo "months.json is already up to date"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add months.json
+          git commit -m "chore: rebuild monthly data index"
+          git push
