@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "month": "2026-09",
+  "entries": [
+    {
+      "tradePostId": "karu_forest",
+      "tradeItemId": "rocking_chair",
+      "exchangeCount": 3,
+      "requirements": [
+        { "itemId": "taltin_farm_red_pear_jam", "quantityPerExchange": 1 },
+        { "itemId": "taltin_farm_purple_fabric", "quantityPerExchange": 1 },
+        { "itemId": "taltin_farm_phantom_moon_earrings", "quantityPerExchange": 1 }
+      ],
+      "tradeDetails": { "nameZhTW": "木片拼圖", "weight": 35, "materialValue": 3, "slotCount": 1 }
+    },
+    {
+      "tradePostId": "oasis",
+      "tradeItemId": "red_hourglass",
+      "exchangeCount": 2,
+      "requirements": [
+        { "itemId": "taltin_farm_midnight_pearl_paint", "quantityPerExchange": 1 },
+        { "itemId": "taltin_farm_dawn_bow", "quantityPerExchange": 1 }
+      ],
+      "tradeDetails": { "nameZhTW": "遺跡探索概論", "weight": 35, "materialValue": 2, "slotCount": 1 }
+    },
+    {
+      "tradePostId": "calida",
+      "tradeItemId": "hot_spring_diffuser",
+      "exchangeCount": 2,
+      "requirements": [
+        { "itemId": "fried_rare_mushroom_box", "quantityPerExchange": 1 },
+        { "itemId": "hematite_plate", "quantityPerExchange": 1 }
+      ],
+      "tradeDetails": { "nameZhTW": "大型吊床", "weight": 35, "materialValue": 2, "slotCount": 1 }
+    },
+    {
+      "tradePostId": "pera",
+      "tradeItemId": "dragon_fan",
+      "exchangeCount": 2,
+      "requirements": [
+        { "itemId": "lumin_syrup", "quantityPerExchange": 1 },
+        { "itemId": "azurite_plate", "quantityPerExchange": 1 }
+      ],
+      "tradeDetails": { "nameZhTW": "火之水晶球", "weight": 35, "materialValue": 2, "slotCount": 1 }
+    }
+  ]
+}
