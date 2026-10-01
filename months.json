@@ -94,6 +94,100 @@
           }
         }
       ]
+    },
+    {
+      "schemaVersion": 2,
+      "month": "2026-10",
+      "entries": [
+        {
+          "tradePostId": "karu_forest",
+          "tradeItemId": "rocking_chair",
+          "exchangeCount": 3,
+          "requirements": [
+            {
+              "itemId": "taltin_farm_sweet_cake",
+              "quantityPerExchange": 1
+            },
+            {
+              "itemId": "taltin_farm_phantom_moon_earrings",
+              "quantityPerExchange": 1
+            },
+            {
+              "itemId": "taltin_farm_natural_rubber",
+              "quantityPerExchange": 1
+            }
+          ],
+          "tradeDetails": {
+            "nameZhTW": "太陽紋樣盾牌",
+            "weight": 35,
+            "materialValue": 3,
+            "slotCount": 1
+          }
+        },
+        {
+          "tradePostId": "oasis",
+          "tradeItemId": "red_hourglass",
+          "exchangeCount": 2,
+          "requirements": [
+            {
+              "itemId": "taltin_farm_star_salad",
+              "quantityPerExchange": 1
+            },
+            {
+              "itemId": "taltin_farm_twilight_lute",
+              "quantityPerExchange": 1
+            }
+          ],
+          "tradeDetails": {
+            "nameZhTW": "古代壁畫碎片",
+            "weight": 35,
+            "materialValue": 2,
+            "slotCount": 1
+          }
+        },
+        {
+          "tradePostId": "calida",
+          "tradeItemId": "hot_spring_diffuser",
+          "exchangeCount": 2,
+          "requirements": [
+            {
+              "itemId": "lumin_syrup",
+              "quantityPerExchange": 1
+            },
+            {
+              "itemId": "moonlight_gear",
+              "quantityPerExchange": 1
+            }
+          ],
+          "tradeDetails": {
+            "nameZhTW": "水精靈雕像",
+            "weight": 35,
+            "materialValue": 2,
+            "slotCount": 1
+          }
+        },
+        {
+          "tradePostId": "pera",
+          "tradeItemId": "dragon_fan",
+          "exchangeCount": 2,
+          "requirements": [
+            {
+              "itemId": "lumin_syrup",
+              "quantityPerExchange": 1
+            },
+            {
+              "itemId": "azurite_plate",
+              "quantityPerExchange": 1
+            }
+          ],
+          "tradeDetails": {
+            "nameZhTW": "火之水晶球",
+            "weight": 35,
+            "materialValue": 2,
+            "slotCount": 1
+          }
+        }
+      ]
     }
   ]
 }
